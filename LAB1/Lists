@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><h1>HTML Lists</h1></title>
+  <link rel="stylesheet" href="styles.css" />
+  
+</head>
+<body>
+  <h1>Unordered List</h1>
+  <ul>
+    <li>B.Tech</li>
+    <li>M.Tech</li>
+  </ul>
+
+  <h1>Ordered List</h1>
+  <ol>
+    <li>CSE</li>
+    <li>ECE</li>
+    <li>IT</li>
+  </ol>
+
+  <h1>Nested List</h1>  
+  <ul>
+    <li>II year
+      <ul>
+        <li>Sec A</li>
+        <li>Sec B</li>
+        <li>Sec C</li>
+      </ul>
+    </li>
+  </ul>
+
+  <ul>
+    <li>III year
+      <ul>
+        <li>Sec A</li>
+        <li>Sec B</li>
+      </ul>
+    </li>
+  </ul>
+
+  <h1>Ordered List Inside an Unordered List</h1>
+  <ul>
+    <li>Programming Languages
+      <ol>
+        <li>Python</li>
+        <li>Java</li>
+        <li>C</li>
+      </ol>
+    </li>
+    <li>Databases
+      <ol>
+        <li>MySQL</li>
+        <li>PostgreSQL</li>
+      </ol>
+    </li>
+  </ul>
+
+  <h1>Definition List</h1>
+  <dl>
+    <dt>HTML</dt>
+    <dd>HyperText Markup Language</dd>
+  </dl>
+  <dl>
+    <dt>CSS</dt>
+    <dd>Cascading Style Sheets</dd>
+  </dl>
+
+</body>
+</html>
