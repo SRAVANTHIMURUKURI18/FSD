@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
+    <code "font-family":"monospace"></code>
   <head>
   <title>HTML links: </title>
   </head>
   <body>
    <h1> HTML Hyperlinks Demonstration</h1>
-   <p>Hyperlinks in HTML are created using the < a > tag with the href attribute to specify the link
-    destination. The target attribute determines how the link is opened.</p>
+   <p>Hyperlinks in HTML are created using the <code>< a ></code> tag with the <code> href </code>attribute to specify the link
+    destination. The <code>target</code> attribute determines how the link is opened.</p>
     <h3> Basic HyperLink </h3>
     <p>Visit the <a href="https://www.google.com/"> Google </a>website.
     </p>
