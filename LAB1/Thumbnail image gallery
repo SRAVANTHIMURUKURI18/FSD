@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thumbnail Image Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            padding: 20px;
+        }
+        .gallery a {
+            text-decoration: none;
+        }
+        .gallery img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border: 3px solid black;
+            border-radius: 8px;
+            transition: transform 0.3s, border-color 0.3s;
+        }
+        .gallery img:hover {
+            transform: scale(1.1);
+            border-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <hr><h1 style="text-align: center; margin-top: 20px; color: #333;">Thumbnail Image Gallery ft.Indian Cricketers</h1>
+    <hr><div class="gallery">
+        <a href="https://twitter.com/imVkohli?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">
+            <img src="/home/vitcse/Downloads/kohli.jpeg" alt="Image 1">
+        </a>
+        <a href="https://twitter.com/klrahul?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">
+            <img src="/home/vitcse/Downloads/rahul.jpeg" alt="Image 2">
+        </a>
+        <a href="https://twitter.com/hardikpandya7?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">
+            <img src="/home/vitcse/Downloads/hardik.jpeg" alt="Image 3">
+        </a>
+        <a href="https://twitter.com/Jaspritbumrah93?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">
+            <img src="/home/vitcse/Downloads/boom.jpeg" alt="Image 4">
+        </a>
+        <a href="https://twitter.com/ShubmanGill?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">
+            <img src="/home/vitcse/Downloads/gill.jpeg" alt="Image 5">
+        </a>
+    </div>
+</body>
+</html>
