@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images with Links</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            
+            height: 100vh;
+            margin: 0;
+            background-color: grey;
+            font-family: Arial, sans-serif;
+        }
+        div {
+            text-align: center;
+        }
+        .profile-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+        }
+        img {
+            height: 250px;
+            width: 250px;
+            margin: 20px;
+            border: 5px solid #007BFF;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        img:hover {
+            border-color: #0056b3;
+            cursor: pointer;
+        }
+        .profile-text {
+            margin-top: -10px;
+            font-size: 16px;
+            color: #333;
+        }
+        .profile {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Profiles</h1>
+        <div class="profile-container">
+            <div class="profile">
+                <a href="https://x.com/smurukuri" target="_blank">
+                    <img src="/home/vitcse/Downloads/my friend.jpg" alt="ChatGPT Profile">
+                </a>
+                <p class="profile-text">Your Profile</p>
+            </div>
+            <div class="profile">
+                <a href="https://twitter.com/ShubmanGill?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">
+                    <img src="/home/vitcse/Downloads/profile.jpg" alt="Friend's Profile">
+                </a>
+                <p class="profile-text">Your Friend's Profile</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
