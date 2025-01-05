@@ -25,33 +25,33 @@
             width: 200px;
             height: 200px;
             object-fit: cover;
-            border: 3px solid black;
+            border: 2px solid black;
             border-radius: 8px;
             transition: transform 0.3s, border-color 0.3s;
         }
         .gallery img:hover {
-            transform: scale(1.1);
+            transform: scale(1.2);
             border-color: #0056b3;
         }
     </style>
 </head>
 <body>
-    <hr><h1 style="text-align: center; margin-top: 20px; color: #333;">Thumbnail Image Gallery ft.Indian Cricketers</h1>
-    <hr><div class="gallery">
-        <a href="https://twitter.com/imVkohli?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">
-            <img src="/home/vitcse/Downloads/kohli.jpeg" alt="Image 1">
+    <h1 style="text-align: center; margin-top: 20px; color: #333;">Thumbnail Image Gallery ft. Indian Cricketers</h1>
+    <div class="gallery">
+        <a href="v.jpg" target="_blank">
+            <img src="v.jpg" alt="Virat Kohli">
         </a>
-        <a href="https://twitter.com/klrahul?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">
-            <img src="/home/vitcse/Downloads/rahul.jpeg" alt="Image 2">
+        <a href="kl.jpg" target="_blank">
+            <img src="kl.jpg" alt="KL Rahul">
         </a>
-        <a href="https://twitter.com/hardikpandya7?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">
-            <img src="/home/vitcse/Downloads/hardik.jpeg" alt="Image 3">
+        <a href="hp.jpg" target="_blank">
+            <img src="hp.jpg" alt="Hardik Pandya">
         </a>
-        <a href="https://twitter.com/Jaspritbumrah93?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">
-            <img src="/home/vitcse/Downloads/boom.jpeg" alt="Image 4">
+        <a href="jb.jpg" target="_blank">
+            <img src="jb.jpg" alt="Jasprit Bumrah">
         </a>
-        <a href="https://twitter.com/ShubmanGill?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">
-            <img src="/home/vitcse/Downloads/gill.jpeg" alt="Image 5">
+        <a href="sg.jpg" target="_blank">
+            <img src="sg.jpg" alt="Shubman Gill">
         </a>
     </div>
 </body>
