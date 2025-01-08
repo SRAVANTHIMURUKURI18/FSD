@@ -33,12 +33,12 @@
             margin: 10px;
         }
         button[type="submit"] {
-            background-color: blue;
-            color: white;
+            background-color: #6699ff;
+            color: black;
         }
         button[type="reset"] {
-            background-color: red;
-            color: white;
+            background-color: #FF0000;
+            color: black;
         }
         div{
           text-align: center;
