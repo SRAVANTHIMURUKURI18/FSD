@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f9;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            color: blue;
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #333;
+            font-size: 1.5rem;
+            margin-top: 30px;
+        }
+
+        audio, video {
+            width: 70%;
+            margin-top: 10px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        audio {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Embedding Audio and Video</h1>
+    
+    <h2>Audio Song</h2>
+    <audio controls>
+        <source src="Mari Antaga-SenSongsMp3.Co.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+
+    <h2>Video Song</h2>
+    <video controls>
+        <source src="Mari Antaga Full Video Song __ SVSC Video Songs __ Venkatesh, Mahesh Babu,Samantha,Anjali.mp4" type="video/mp4">
+        Your browser does not support the video element.
+    </video>
+</body>
+</html>
