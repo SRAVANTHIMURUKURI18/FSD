@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voter Eligibility Check</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        table {
+            margin: 20px auto;
+            border-collapse: collapse;
+            width: 50%;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #007BFF;
+            color: white;
+        }
+        td {
+            font-size: 16px;
+        }
+        .not-eligible {
+            color: red;
+            font-weight: bold;
+        }
+        .eligible {
+            color: green;
+            font-weight: bold;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+            border: none;
+        }
+        button:hover {
+            background-color: #0056B3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Voter Eligibility Check</h1>
+    <button onclick="checkEligibility()">Check Eligibility</button>
+    <table>
+        <tr>
+            <th>Name</th>
+            <td id="name"></td>
+        </tr>
+        <tr>
+            <th>Age</th>
+            <td id="age"></td>
+        </tr>
+        <tr>
+            <th>Eligibility</th>
+            <td id="eligibility"></td>
+        </tr>
+    </table>
+
+    <script>
+        function checkEligibility() {
+            // Prompt user for name and age
+            const name = prompt("Please enter your name:");
+            const age = prompt("Please enter your age:");
+            
+            // Populate table with user input
+            document.getElementById("name").innerText = name || "N/A";
+            document.getElementById("age").innerText = age || "N/A";
+
+            // Determine eligibility and update the table
+            const eligibilityCell = document.getElementById("eligibility");
+            if (age >= 18) {
+                eligibilityCell.innerText = "Eligible to vote";
+                eligibilityCell.className = "eligible";
+            } else {
+                eligibilityCell.innerText = "Not eligible to vote";
+                eligibilityCell.className = "not-eligible";
+            }
+        }
+    </script>
+</body>
+</html>
