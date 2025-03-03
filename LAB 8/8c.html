@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week Days</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 100px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+        .output {
+      margin-top: 20px;
+      font-size: 18px;
+      border: 1px solid #007BFF;
+      padding: 10px;
+      display: inline-block;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Print Numbers from 1 to 10 using Loops</h1>
+  <button onclick="printWithForLoop()">For Loop</button>
+  <button onclick="printWithWhileLoop()">While Loop</button>
+  <button onclick="printWithDoWhileLoop()">Do-While Loop</button>
+  <div id="output" class="output">Click a button to print numbers</div>
+
+  <script>
+    function printWithForLoop() {
+      let output = "Using For Loop: ";
+      for (let i = 1; i <= 10; i++) {
+        output += i + " ";
+      }
+      document.getElementById("output").textContent = output.trim();
+    }
+
+    function printWithWhileLoop() {
+      let output = "Using While Loop: ";
+      let i = 1;
+      while (i <= 10) {
+        output += i + " ";
+        i++;
+      }
+      document.getElementById("output").textContent = output.trim();
+    }
+
+    function printWithDoWhileLoop() {
+      let output = "Using Do-While Loop: ";
+      let i = 1;
+      do {
+        output += i + " ";
+        i++;
+      } while (i <= 10);
+      document.getElementById("output").textContent = output.trim();
+    }
+  </script>
+</body>
+</html>
